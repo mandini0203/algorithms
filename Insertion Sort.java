@@ -9,13 +9,13 @@ public class InsertionSort {
       while (i > -1 && arr[i] > key) {
         arr[i + 1] = arr[i];
         i--;
-    
+      }
       arr[i + 1] = key;
     }
   }
 
   public static void main(String[] args) {
-    int[] arr = {10, 15, 5, 1, 26, 12, 68, 42};
+    int[] arr = {9, 13, 3, 2, 12, 64, 58, 22};
     System.out.println("Before Insertion Sort:");
     for (int i : arr) {
       System.out.print(i + " ");
@@ -30,3 +30,5 @@ public class InsertionSort {
     }
   }
 }
+
+    
